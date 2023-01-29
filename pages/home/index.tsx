@@ -1,12 +1,9 @@
-import { GetStaticProps } from 'next'
-import Link from 'next/link'
+import Layout from '../../components/Layout';
 
-import Layout from '../../components/Layout'
-
-const WithStaticProps = () => (
+const Index = () => (
   <Layout title="Home page">
     <h1>Home</h1>
   </Layout>
-)
+);
 
-export default WithStaticProps
+export default Index;

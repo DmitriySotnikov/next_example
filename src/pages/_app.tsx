@@ -5,7 +5,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <>
       <Head>
-        <title>NextJS App From Scratch</title>
+        <title>Next App</title>
       </Head>
       <Component {...pageProps} />
     </>
